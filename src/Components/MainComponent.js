@@ -1,5 +1,4 @@
 import React from "react";
-import {Container, Row, Col, Form, Button} from "react-bootstrap";
 import HeroComponent from "./HeroComponent";
 import ExploreComponent from "./ExploreComponent";
 import CollectionComponent from "./CollectionComponent";

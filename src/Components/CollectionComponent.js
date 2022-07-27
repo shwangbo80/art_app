@@ -1,10 +1,10 @@
 import React from "react";
-import {Container, Row, Col, Form, Button, Carousel} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 
 import {Swiper, SwiperSlide} from "swiper/react";
 
 // import required modules
-import {Pagination, Navigation} from "swiper";
+import {Navigation} from "swiper";
 
 export default function CollectionCOmponent() {
   return (
@@ -21,47 +21,47 @@ export default function CollectionCOmponent() {
           loop={true}
           modules={[Navigation]}>
           <SwiperSlide>
-            <a href="">
+            <a href="/">
               <p className="text-light pt-3">Sub-Saharan African Art</p>
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="/">
               <p className="text-light pt-3">The American Wing</p>
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="/">
               <p className="text-light pt-3">Ancient Near East Art</p>
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="/">
               <p className="text-light pt-3">Arms and Armor</p>
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="/">
               <p className="text-light pt-3">Ancient American Art</p>
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="/">
               <p className="text-light pt-3">Asian Art</p>
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="/">
               <p className="text-light pt-3">The Costume Institute</p>
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="/">
               <p className="text-light pt-3">Drawings and Prints</p>
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="/">
               <p className="text-light pt-3">Drawings and Prints</p>
             </a>
           </SwiperSlide>

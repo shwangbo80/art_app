@@ -22,9 +22,9 @@ export default function HeroComponent() {
               />
             </Col>
             <Col xs="auto" className="my-1">
-              <Button type="submit" className="btn-warning btn-lg">
-                Submit
-              </Button>
+              <a href="/search">
+                <Button className="btn-warning btn-lg">Submit</Button>
+              </a>
             </Col>
           </Row>
         </Form>

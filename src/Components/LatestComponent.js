@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col, Form, Button, Image} from "react-bootstrap";
+import {Container, Row, Col, Image} from "react-bootstrap";
 
 export default function LatestComponent() {
   return (
